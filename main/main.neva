@@ -1,3 +1,1 @@
-interfaces {
-  pub IExample(x) (y)
-}
+pub interface IExample(x any) (y any)
