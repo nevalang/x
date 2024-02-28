@@ -2,6 +2,6 @@ pub component Printer<T> (data T) (sig T) {
     nodes { printer Printer<T> }
     net {
         :data -> printer:data
-        printer:sig -> sig
+        printer:sig -> :sig
     }
 }
