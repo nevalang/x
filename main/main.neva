@@ -1,9 +1,7 @@
-import { builtin }
-
-pub component Printer<T> (data T) (sig T) {
-    nodes { printer builtin.Printer<T> }
+pub component Println<T> (data T) (sig T) {
+    nodes { Println<T> }
     net {
-        :data -> printer:data
-        printer:sig -> :sig
+        :data -> println:data
+        println:sig -> :sig
     }
 }
