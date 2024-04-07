@@ -1,5 +1,10 @@
+import { builtin }
+
 pub component Println<T> (data T) (sig T) {
-    nodes { Println<T> }
+    nodes {
+      // implicitly refer to std/builtin package to avoid recursion
+      builtin.Println<T>
+    }
     net {
         :data -> println:data
         println:sig -> :sig
