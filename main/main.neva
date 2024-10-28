@@ -1,7 +1,7 @@
 import { builtin }
 
-pub flow Println<T> (data T) (sig T) {
-    // implicitly refer to std/builtin package to avoid recursion
+pub def Println<T> (data T) (sig T) {
+    // explicitly refer to std/builtin package to avoid recursion
     builtin.Println<T>
     ---
     :data -> println:data
