@@ -1,9 +1,7 @@
 import { fmt }
 
 pub def Println<T> (data T) (sig T) {
-    // explicitly refer to std/builtin package to avoid recursion
-    fmt.Println<T>
+    println fmt.Println<T>
     ---
-    :data -> println:data
-    println:sig -> :sig
+    :data -> println -> :sig
 }
