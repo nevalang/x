@@ -3,5 +3,5 @@ import { fmt }
 pub def Println<T>(data T) (res T) {
     println fmt.Println<T>
     ---
-    :data -> println -> :sig
+    :data -> println -> :res
 }
