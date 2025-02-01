@@ -1,7 +1,7 @@
 import { fmt }
 
-pub def Println<T>(data T) (res T) {
-    println fmt.Println<T>
+pub def Println<T>(data T) (res T, err error) {
+    println fmt.Println<T>?
     ---
     :data -> println -> :res
 }
