@@ -1,7 +1,5 @@
 # x
 
-A modern programming language designed for simplicity and performance.
-
 ## Quick start
 
 1. Install Neva CLI
