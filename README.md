@@ -12,6 +12,6 @@
 
 - **Pull Requests**: Fork the repository, create a feature branch, make your changes, and submit a pull request. Ensure your code follows the project's style. If adding new features, consider adding tests where applicable.
 
-- **Local Checks**: Before opening a pull request, run `neva run main` to verify your changes work correctly locally. This helps catch issues early.
+- **Local Checks**: Run local checks (for example, tests/lint) before opening a PR.
 
 - **Development Setup**: After forking and cloning, check the `neva.yml` for module configuration. Use `neva run main` to test your changes locally.
