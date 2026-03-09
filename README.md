@@ -6,7 +6,7 @@
 2. Run `neva run main`
 3. Check `neva.yml` for module config
 
-## Usage
+## Usage Example
 
 Here's how to call the `Println` function from another module:
 
